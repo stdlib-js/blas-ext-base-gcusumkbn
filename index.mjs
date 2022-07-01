@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import r from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@esm/index.mjs";var t=e;var n=e;var s=function(r,e,n,s,a,i){var d,o,f,m,l,u,p;if(r<=0)return a;for(d=s<0?(1-r)*s:0,o=i<0?(1-r)*i:0,f=e,u=0,p=0;p<r;p++)l=f+(m=n[d]),t(f)>=t(m)?u+=f-l+m:u+=m-l+f,f=l,a[o]=f+u,d+=s,o+=i;return a},a=function(r,e,t,s,a,i,d,o){var f,m,l,u,p,v,j;if(r<=0)return i;for(f=a,m=o,l=e,v=0,j=0;j<r;j++)p=l+(u=t[f]),n(l)>=n(u)?v+=l-p+u:v+=u-p+l,l=p,i[m]=l+v,f+=s,m+=d;return i};r(s,"ndarray",a);var i=s;export{i as default,a as ndarray};
-//# sourceMappingURL=index.mjs.map
