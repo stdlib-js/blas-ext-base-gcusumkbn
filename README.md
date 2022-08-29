@@ -37,13 +37,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import gcusumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn@deno/mod.js';
+import gcusumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn@v0.0.9-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn@v0.0.9-deno/mod.js';
 ```
 
 #### gcusumkbn( N, sum, x, strideX, y, strideY )
@@ -165,7 +165,7 @@ gcusumkbn.ndarray( N, 0.0, x, 2, 1, y, -1, y.length-1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import gcusumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn@deno/mod.js';
+import gcusumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumkbn@v0.0.9-deno/mod.js';
 
 var y;
 var x;
