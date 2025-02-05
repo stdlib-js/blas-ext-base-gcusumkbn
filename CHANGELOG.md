@@ -4,7 +4,27 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-02)
+## Unreleased (2025-02-05)
+
+<section class="features">
+
+### Features
+
+-   [`4bbd4bd`](https://github.com/stdlib-js/stdlib/commit/4bbd4bdc49ac6d5df7904c3e47810a455b1912bd) - add accessor arrays support to `blas/ext/base/gcusumkbn` [(#4959)](https://github.com/stdlib-js/stdlib/pull/4959)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`068bbeb`](https://github.com/stdlib-js/stdlib/commit/068bbeb48863fd10ac825a7855192c00121b90ab) - update return value and tests for `blas/ext/base/gcusumkbn` [(#5064)](https://github.com/stdlib-js/stdlib/pull/5064)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +32,8 @@
 
 <details>
 
+-   [`068bbeb`](https://github.com/stdlib-js/stdlib/commit/068bbeb48863fd10ac825a7855192c00121b90ab) - **fix:** update return value and tests for `blas/ext/base/gcusumkbn` [(#5064)](https://github.com/stdlib-js/stdlib/pull/5064) _(by Muhammad Haris)_
+-   [`4bbd4bd`](https://github.com/stdlib-js/stdlib/commit/4bbd4bdc49ac6d5df7904c3e47810a455b1912bd) - **feat:** add accessor arrays support to `blas/ext/base/gcusumkbn` [(#4959)](https://github.com/stdlib-js/stdlib/pull/4959) _(by Muhammad Haris, Athan Reines)_
 -   [`464e2cc`](https://github.com/stdlib-js/stdlib/commit/464e2cc9a3bb6430d7397db2e70c62b0ca275f09) - **refactor:** update `blas/ext/base/gcusumkbn` to follow current project conventions [(#4412)](https://github.com/stdlib-js/stdlib/pull/4412) _(by Muhammad Haris, Athan Reines)_
 
 </details>
