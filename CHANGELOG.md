@@ -20,6 +20,7 @@
 
 ### Bug Fixes
 
+-   [`ee80204`](https://github.com/stdlib-js/stdlib/commit/ee80204dfe9c9a6409ebd7873354371bbdbac32e) - propagate sign to the accumulated sum
 -   [`4a04acc`](https://github.com/stdlib-js/stdlib/commit/4a04accd853a02a8b881c900fab0c4f47d46865d) - preserve the sign of zero
 -   [`068bbeb`](https://github.com/stdlib-js/stdlib/commit/068bbeb48863fd10ac825a7855192c00121b90ab) - update return value and tests for `blas/ext/base/gcusumkbn` [(#5064)](https://github.com/stdlib-js/stdlib/pull/5064)
 
@@ -33,6 +34,7 @@
 
 <details>
 
+-   [`ee80204`](https://github.com/stdlib-js/stdlib/commit/ee80204dfe9c9a6409ebd7873354371bbdbac32e) - **fix:** propagate sign to the accumulated sum _(by Athan Reines)_
 -   [`4a04acc`](https://github.com/stdlib-js/stdlib/commit/4a04accd853a02a8b881c900fab0c4f47d46865d) - **fix:** preserve the sign of zero _(by Athan Reines)_
 -   [`068bbeb`](https://github.com/stdlib-js/stdlib/commit/068bbeb48863fd10ac825a7855192c00121b90ab) - **fix:** update return value and tests for `blas/ext/base/gcusumkbn` [(#5064)](https://github.com/stdlib-js/stdlib/pull/5064) _(by Muhammad Haris)_
 -   [`4bbd4bd`](https://github.com/stdlib-js/stdlib/commit/4bbd4bdc49ac6d5df7904c3e47810a455b1912bd) - **feat:** add accessor arrays support to `blas/ext/base/gcusumkbn` [(#4959)](https://github.com/stdlib-js/stdlib/pull/4959) _(by Muhammad Haris, Athan Reines)_
